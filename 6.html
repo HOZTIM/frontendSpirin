@@ -7,159 +7,211 @@
     <title>Document</title>
 </head>
 <body>
-    <aside>рекламарекламареклама</aside>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="">women</a></li>
-                <li><a href="">Men</a></li>
-                <li><a href="">company</a></li>
-                <li><a href="">stores</a></li>
+    <aside class="ad-marketing">рекламарекламареклама</aside>
+    <header class="main-header">
+        <nav class="static-navigation main-header__left-column">
+            <ul class="nav-list">
+                <li class="nav-list__item">
+                    <a href="" class="text--size-b">women</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="" class="text--size-b">Men</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="" class="text--size-b">company</a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="" class="text--size-b">stores</a>
+                </li>
             </ul>
         </nav>
-        <div>
-            <nav>
-                <a href="">Sign in</a>
-                <a href="">Create account</a> 
+        <div class="main-header__right-column">
+            <nav class="auth-registr main-header__right-column__item">
+                <a href="" class="text--size-b">Sign in</a>
+                <a href="" class="text--size-b">Create account</a> 
             </nav>
-            <select name="" id="">
-                <option value="">CAD</option>
-                <option value="">RUS</option>
-                <option value="">END</option>
+            <select name="" id="" class="select-lang main-header__right-column__item">
+                <option value="" class="select-lang__option">CAD</option>
+                <option value="" class="select-lang__option">RUS</option>
+                <option value="" class="select-lang__option">END</option>
             </select>
-            <button type="button"><img src="" alt="search"></button>
-            <a><img src="" alt="basket"></a>
+            <button type="button" class="button-search main-header__right-column__item">
+                <!-- <img src="" alt="search"> реализовать через CSS -->
+            </button>
+            <a class="basket main-header__right-column__item">
+                <!-- <img src="" alt="search"> реализовать через CSS -->
+            </a>
         </div>   
-        <div>
-            <nav>
-                <ol>
-                    <li><a href="">MEn</a></li>
-                    <li><a href="">New arrivals</a></li>
+        <div class="main-header__down-string">
+            <nav class="current-nav">
+                <ol class="current-nav__list">
+                    <li class="current-nav__list__item">
+                        <a href="" class="text--size-b">MEn</a>
+                    </li>
+                    <li class="current-nav__list__item">
+                        <a href="" class="text--size-b">New arrivals</a>
+                    </li>
                 </ol>
             </nav>
         </div>
     </header>
-    <section>
-        <h1>New Arrivals</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
-        <aside>
-            <form action="GET">
-                <div>
-                    <h6>Color</h6>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
+    <section class="main-content">
+        <h1 class="text--size-xl">New Arrivals</h1>
+        <p class="text--size-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+        <aside class="main-content__filter">
+            <form action="GET" class="filter-form">
+                <div class="filter-form__colors">
+                    <h6 class="text--size-b">Color</h6>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
                 </div>
-                <div>
-                    <h6>sizes</h6>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
+                <div class="filter-form__categories">
+                    <h6 class="text--size-b">sizes</h6>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
                 </div>
-                <div>
-                    <h6>company</h6>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
-                    <input type="checkbox" id="colorsCheck">
-                    <label for="colorsCheck">red</label>
+                <div class="filter-form__sizes">
+                    <h6 class="text--size-b">company</h6>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
+                    <input type="checkbox" id="colorsCheck" class="checkbox">
+                    <label for="colorsCheck" class="text--size-b">red</label>
                 </div>
             </form>
         </aside>
-        <section>
-            <article>
-                <img src="" alt="">
-                <h2>title1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
-                <p>8 color</p>
-                <p>$256</p>
+        <section class="main-content__products">
+            <article class="main-content__products__item">
+                <!-- <img src="" alt=""> CSS -->
+                <h6 class="text--size-b text--color-primary">title1</h2>
+                <p class="text--size-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
+                <p class="text--size-b">8 color</p>
+                <p class="text--size-b text--color-primary">$256</p>
             </article>
-            <article>
-                <img src="" alt="">
-                <h2>title2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
-                <p>8 color</p>
-                <p>$256</p>
+            <article class="main-content__products__item">
+                <!-- <img src="" alt=""> CSS -->
+                <h6 class="text--size-b text--color-primary">title2</h2>
+                <p class="text--size-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
+                <p class="text--size-b">8 color</p>
+                <p class="text--size-b text--color-primary">$256</p>
             </article>
-            <article>
-                <img src="" alt="">
-                <h6>title3</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
-                <p>8 color</p>
-                <p>$256</p>
+            <article class="main-content__products__item">
+                <!-- <img src="" alt=""> CSS -->
+                <h6 class="text--size-b text--color-primary">title3</h6>
+                <p class="text--size-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
+                <p class="text--size-b">8 color</p>
+                <p class="text--size-b text--color-primary">$256</p>
             </article>
-            <article>
-                <img src="" alt="">
-                <h6>title4</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
-                <p>8 color</p>
-                <p>$256</p>
+            <article class="main-content__products__item">
+                <!-- <img src="" alt=""> CSS -->
+                <h6 class="text--size-b text--color-primary">title4</h6>
+                <p class="text--size-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
+                <p class="text--size-b">8 color</p>
+                <p class="text--size-b text--color-primary">$256</p>
             </article>
-            <article>
-                <img src="" alt="">
-                <h6>title5</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
-                <p>8 color</p>
-                <p>$256</p>
+            <article class="main-content__products__item">
+                <!-- <img src="" alt=""> CSS -->
+                <h6 class="text--size-b text--color-primary">title5</h6>
+                <p class="text--size-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
+                <p class="text--size-b">8 color</p>
+                <p class="text--size-b text--color-primary">$256</p>
             </article>
-            <article>
-                <img src="" alt="">
-                <h6>title6</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
-                <p>8 color</p>
-                <p>$256</p>
+            <article class="main-content__products__item">
+                <!-- <img src="" alt=""> CSS -->
+                <h6 class="text--size-b text--color-primary">title6</h6>
+                <p class="text--size-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud ex</p>
+                <p class="text--size-b">8 color</p>
+                <p class="text--size-b text--color-primary">$256</p>
             </article>
         </section>
     </section>
-    <footer>
-        <ul>
-            <li><a href=""><b>ссыль</b></a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
+    <footer class="main-footer">
+        <ul class="main-footer__list">
+            <li class="main-footer__list__item">
+                <a href="" class="text--color-primary text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
         </ul>
-        <ul>
-            <li><a href=""><b>ссыль</b></a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
+        <ul class="main-footer__list">
+            <li class="main-footer__list__item">
+                <a href="" class="text--color-primary text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
         </ul>
-        <ul>
-            <li><a href=""><b>ссыль</b></a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
-            <li><a href="">ссыль</a></li>
+        <ul class="main-footer__list">
+            <li class="main-footer__list__item">
+                <a href="" class="text--color-primary text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
+            <li class="main-footer__list__item">
+                <a href="" class="text--size-b">ссыль</a>
+            </li>
         </ul>
-        <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
-            <form action="GET">
-                <input type="text">
-                <button type="submit">Sing up</button>
+        <div class="main-footer__singUp">
+            <p class="text--size-b">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            <form action="GET" class="singUp-form">
+                <input type="text" class="singUp-form__input">
+                <button type="submit" class="singUp-form__button">Sing up</button>
             </form>
         </div>
     </footer>
